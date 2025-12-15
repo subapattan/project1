@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import "tailwindcss";
+.bar{
+  background-color: #10311a;
+  width: 8;
+  height: 1;
+}
+.bgc {
+  background-color: #10311a;
+  padding-right: 100px;
+}
+
+.bgi {
+  background-image: url("src/assets/img3.jpg");
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.fs {
+  font-family: 'Dancing Script', cursive;
+}
+.button-hover-animate {
+  position: relative;
+  height: 40px; /* Adjust based on content */
+  overflow: hidden;
+  display: inline-block;
+}
+
+.button-hover-animate .button-content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 1;
+}
+
+/* Initial positions */
+.button-hover-animate .current-text {
+  top: 0;
+}
+
+.button-hover-animate .new-text {
+  top: 100%;
+  opacity: 0;
+}
+
+/* On hover */
+.button-hover-animate:hover .current-text {
+  top: -100%;
+  opacity: 0;
+}
+
+.button-hover-animate:hover .new-text {
+  top: 0;
+  opacity: 1;
+}
+ @keyframes spin-slow {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .animate-spin-slow {
+        animation: spin-slow 10s linear infinite;
+        transform-origin: center;
+      }
+      /*SECTION 2*/
+     
