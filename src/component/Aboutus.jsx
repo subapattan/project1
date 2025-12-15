@@ -112,7 +112,7 @@ const Aboutus = () => {
         {/* 🔹 RIGHT COLUMN (IMAGE) */}
         <div className="flex-1 flex justify-center items-start" data-aos="fade-up">
           <img
-            src="/src/assets/img4.jpg"
+            src="/src/assets/img5.jpg"
             alt="How it works"
             className="
               w-full max-w-md md:max-w-lg

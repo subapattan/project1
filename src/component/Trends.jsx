@@ -21,7 +21,7 @@ const Trends = () => {
             data-aos="fade-up"
           >
             <img
-              src="./src/assets/img3.jpg"
+              src="./src/assets/img5.jpg"
               alt="trend"
               className="w-full h-[300px] md:h-[500px] object-cover transition-transform duration-500 group-hover:scale-110"
             />
